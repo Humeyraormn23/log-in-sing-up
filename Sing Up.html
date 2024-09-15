@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sing Up Form</title>
+  <meta >
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+    body {
+      background-image: url('kiraz-cicekleri-.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bigdiv{
+    color: white;
+    border: 1px solid #fefefe;
+    margin: 130px 450px;
+    padding: 40px;
+    border-radius: 75px;
+    font: 1em sans-serif;
+    width:auto;
+    height:auto;
+    background-color:#000000;
+    opacity:0.6;
+    } 
+
+   .h1{
+      opacity: 1; 
+    color: #fff; 
+    }
+
+   .Email{
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 80px;
+    opacity: 1; 
+    color: #fff; 
+   } 
+
+   .password{
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 50px;
+    opacity: 1; 
+    color: #fff; 
+   }
+
+   .Name{
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 77px;
+    opacity: 1; 
+    color: #fff; 
+   }
+
+   .Surname{
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 57px;
+    opacity: 1; 
+    color: #fff; 
+   }
+
+   .Phone{
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 75px;
+    opacity: 1; 
+    color: #fff; 
+   }
+
+   .label-show-password{
+    text-align: left;
+    font-size: 17px;
+    margin: 0px 30px;
+    opacity: 1; 
+    color: #fff; 
+   } 
+
+   .text{
+    border-radius: 40px;
+    padding: 4.5px;
+    margin: 0px 10px;
+    width: 200px;
+    opacity: 1; 
+    color: #fff; 
+   }
+   
+   .label{
+    margin: 0px 20px;
+   }
+
+
+    </style>
+
+</head>
+
+<body>
+<form method="get" action="javascript: void(0);" id="login-form" class="login-form" autocomplete="off" role="main">
+  
+<div class="bigdiv" style="background-color:#ce4f9d; text-align: center ; height: 400px; " >
+
+  <h1 class="h1" >Sing Up Form</h1>
+ 
+  <div class="Email">
+    <span class="required">Email</span>
+    <label class="label">
+       <input style="color: #000000;" type="text" class="text" name="Email" placeholder="Email" tabindex="1" required />
+    </label>
+  </div>
+
+  <br>
+
+  <div class="password">
+    <span class="required">Password</span>
+    <label class="label">
+      <input style="color: #000000;" type="text" class="text" name="password" placeholder="Password" tabindex="1" required />
+    </label>
+  </div>
+  
+  <br>
+  
+  <div class="Name">
+    <span class="required">Name</span>
+    <label class="label">
+        <input style="color: #000000;" type="Name" class="text" name="Name" placeholder="Name" tabindex="1" required />
+      </label>
+    </div>
+  
+    <br>
+
+    <div class="Surname">
+    <label class="label">
+        <span class="required">Surname</span>
+        <input style="color: #000000;" type="text" class="text" name="Surname" placeholder="Surname" tabindex="1" required />
+      </label>
+  </div>
+  
+  <br>
+
+  <div class="Phone">
+    <span class="required">Phone</span>
+    <label class="label">
+      <input style="color: #000000;" type="text" class="text" name="Phone" placeholder="Phone" tabindex="1" required />
+    </label>
+</div>
+
+<input type="checkbox" name="show-password" class="show-password a11y-hidden" id="show-password" tabindex="3" style="text-align: left;" />
+  <span>Show Password</span>
+ <label class="label-show-password" for="show-password">
+ </label>
+
+<br>
+
+  <input type="submit" value="Sing Up" class="SingUp" />
+
+</div>
+
+</form>
+</body>
+</html>
